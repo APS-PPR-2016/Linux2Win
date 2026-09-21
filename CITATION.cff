@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - name: "APS-PPR-2016"
+title: "Linux2Win: Linux Disk Auto-Detector & Windows Folder Projection VFS"
+version: 1.0.0
+date-released: 2026-09-21
+url: "https://github.com/APS-PPR-2016/Linux2Win"
+repository-code: "https://github.com/APS-PPR-2016/Linux2Win"
+license: MIT
+keywords:
+  - "ext4"
+  - "linux disk reader"
+  - "projfs"
+  - "windows explorer"
+  - "filesystem"
+  - "vfs"

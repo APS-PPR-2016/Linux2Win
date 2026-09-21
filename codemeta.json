@@ -1,0 +1,36 @@
+{
+  "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+  "@type": "SoftwareSourceCode",
+  "identifier": "Linux2Win",
+  "name": "Linux2Win",
+  "version": "1.0.0",
+  "description": "Linux Disk Auto-Detector & Windows Folder Projection VFS (Ext2/3/4) with Read-Only Safety Protection",
+  "license": "https://spdx.org/licenses/MIT",
+  "codeRepository": "https://github.com/APS-PPR-2016/Linux2Win",
+  "url": "https://github.com/APS-PPR-2016/Linux2Win",
+  "programmingLanguage": [
+    "C++20",
+    "CMake"
+  ],
+  "operatingSystem": [
+    "Windows 10",
+    "Windows 11"
+  ],
+  "keywords": [
+    "ext4",
+    "linux disk",
+    "windows explorer",
+    "projfs",
+    "filesystem",
+    "vfs",
+    "storage",
+    "read-only"
+  ],
+  "author": [
+    {
+      "@type": "Person",
+      "name": "APS-PPR-2016",
+      "url": "https://github.com/APS-PPR-2016"
+    }
+  ]
+}
