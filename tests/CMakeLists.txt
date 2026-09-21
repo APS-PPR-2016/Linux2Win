@@ -1,0 +1,14 @@
+# Linux2Win Test Suite
+
+add_executable(test_partition_filter test_partition_filter.cpp)
+target_link_libraries(test_partition_filter PRIVATE linux2win_core)
+
+add_executable(test_ext4_structures test_ext4_structures.cpp)
+target_link_libraries(test_ext4_structures PRIVATE linux2win_core)
+
+add_executable(test_vfs_tree test_vfs_tree.cpp)
+target_link_libraries(test_vfs_tree PRIVATE linux2win_core)
+
+add_test(NAME PartitionFilterTest COMMAND test_partition_filter)
+add_test(NAME Ext4StructuresTest COMMAND test_ext4_structures)
+add_test(NAME VfsTreeTest COMMAND test_vfs_tree)

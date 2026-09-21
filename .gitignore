@@ -1,0 +1,28 @@
+# Build outputs
+build/
+bin/
+lib/
+out/
+
+# Visual Studio & IDE
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.VC.db
+*.VC.opendb
+
+# Windows temporary files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+
+# CMake temporary files
+CMakeSettings.json
+CMakeUserPresets.json
